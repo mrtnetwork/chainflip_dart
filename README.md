@@ -30,11 +30,10 @@ This package facilitates seamless interaction with the Chainflip network, suppor
     - [Vault contract intraction ](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/vault_contract/swap_native.dart)
 
 ## Related chain Examples
-
-    - Create, sign and send bitcoin transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/bitcoin_example)
-    - Create, sign and send solana transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/solana_examples)
-    - Create, sign and send substrate transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/substrate_examples)
-    - Create, sign and send ethereum transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/ethereum_example)
+Create, sign and send bitcoin transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/bitcoin_example)
+Create, sign and send solana transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/solana_examples)
+Create, sign and send substrate transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/substrate_examples)
+Create, sign and send ethereum transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/ethereum_example)
 
 
 ## Resources
