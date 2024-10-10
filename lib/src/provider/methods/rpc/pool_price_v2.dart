@@ -1,8 +1,8 @@
 import 'package:chainflip_dart/src/provider/core/core.dart';
 import 'package:chainflip_dart/src/provider/models/models/rpc.dart';
 
-class CfRPCRequestPoolPricev2 extends CfRPCRequestParam<
-    PoolPriceV2Response, Map<String, dynamic>> {
+class CfRPCRequestPoolPricev2
+    extends CfRPCRequestParam<PoolPriceV2Response, Map<String, dynamic>> {
   final UncheckedAssetAndChain baseAsset;
   final UncheckedAssetAndChain quoteAsset;
   const CfRPCRequestPoolPricev2(

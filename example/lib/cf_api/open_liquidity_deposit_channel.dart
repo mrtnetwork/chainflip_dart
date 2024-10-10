@@ -23,9 +23,7 @@ void main() async {
   final extrinsic = substrateApi.signTransaction(
       payload: openLiquidityChannel, signer: liquidityPrivateKey);
 
-  final result =
-      await substrateApi.submitExtrinsicAndWatch(extrinsic: extrinsic);
-  print(result.transactionHash);
+  await substrateApi.submitExtrinsicAndWatch(extrinsic: extrinsic);
 
   /// https://scan.perseverance.chainflip.io/extrinsics/3011851-241
 }

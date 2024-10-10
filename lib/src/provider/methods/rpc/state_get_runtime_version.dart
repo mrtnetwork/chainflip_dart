@@ -2,8 +2,7 @@ import 'package:chainflip_dart/src/provider/core/core.dart';
 import 'package:chainflip_dart/src/provider/models/models/rpc.dart';
 
 class CfRPCRequestStateGetRuntimeVersion
-    extends CfRPCRequestParam<RuntimeVersionResponse,
-        Map<String, dynamic>> {
+    extends CfRPCRequestParam<RuntimeVersionResponse, Map<String, dynamic>> {
   @override
   String get method => "state_getRuntimeVersion";
 

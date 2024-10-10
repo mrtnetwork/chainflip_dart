@@ -23,4 +23,5 @@ void main() async {
       api.signTransaction(payload: transaction, signer: privateKey);
   await api.submitExtrinsicAndWatch(extrinsic: extrinsic);
 }
+
 /// https://westend.subscan.io/extrinsic/0x06cc98fbf683a59bc00e090d2d3e6abf425bbd3b9a74fcb0dc605a3c6d496704

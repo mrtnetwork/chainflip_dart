@@ -22,8 +22,7 @@ void main() async {
     functionInputs: [destination, tokenAmount],
   );
   api.signTransaction(transaction: transaction, signer: ethPrivateKey);
-  final result = await transaction.sendTransaction(provier);
-  print(result);
+  await transaction.sendTransaction(provier);
 }
 
 /// https://www.oklink.com/amoy/tx/0xbb02808b6c46a3fa7d2e06f0edcfb0275af8247b22a434028b4f68aa57974dcf

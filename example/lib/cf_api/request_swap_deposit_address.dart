@@ -16,7 +16,7 @@ void main() async {
       substrateApi:
           SubstrateIntractApi(api: MetadataApi(metadata), provider: provider),
       network: CfNetwork.perseverance);
-  final result = await api.requestSwapDepositAddress(
+  await api.requestSwapDepositAddress(
       operation: CfSubstrateRequestSwapDepositAddress(
           source: AssetAndChain.solana(),
           destination: ArbitrumChainAddress(
@@ -25,5 +25,4 @@ void main() async {
           boostFee: 0),
       source: privateKey.toAddress(ss58Format: 2112),
       signer: privateKey);
-  print(result.address);
 }
