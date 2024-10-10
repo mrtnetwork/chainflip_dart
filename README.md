@@ -22,15 +22,15 @@ This package facilitates seamless interaction with the Chainflip network, suppor
 
 ## ChainFlip Examples
 
-    - [Create Broker account](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/become_broker.dart)
-    - [Create liquidity account](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/become_liquidity.dart)
-    - [Request Swap Deposit Address](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/request_swap_deposit_address.dart)
-    - [Open Liquidity Deposit Address channel](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/open_liquidity_deposit_channel.dart)
-    - [Set liquidity Refund address](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/set_liquidity_refunt_address.dart)
-    - [Vault contract intraction ](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/vault_contract/swap_native.dart)
+- Create Broker account [example](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/become_broker.dart)
+- Create liquidity account [example](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/become_liquidity.dart)
+- Request Swap Deposit Address [example](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/request_swap_deposit_address.dart)
+- Open Liquidity Deposit Address channel [example](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/open_liquidity_deposit_channel.dart)
+- Set liquidity Refund address [example](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/set_liquidity_refunt_address.dart)
+- Vault contract intraction [example](https://github.com/mrtnetwork/chainflip_dart/blob/main/example/lib/cf_api/vault_contract/swap_native.dart)
 
 ## Related chain Examples
-- Create, sign and send bitcoin transactions [example]- -0 (https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/bitcoin_example)
+- Create, sign and send bitcoin transactions [example]  (https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/bitcoin_example)
 - Create, sign and send solana transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/solana_examples)
 - Create, sign and send substrate transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/substrate_examples)
 - Create, sign and send ethereum transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/ethereum_example)
