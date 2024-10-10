@@ -31,10 +31,10 @@ This package facilitates seamless interaction with the Chainflip network, suppor
 
 ## Related chain Examples
 
-    - [Create, sign and send bitcoin transactions](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/bitcoin_example)
-    - [Create, sign and send solana transactions](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/solana_examples)
-    - [Create, sign and send substrate transactions](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/substrate_examples)
-    - [Create, sign and send ethereum transactions](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/ethereum_example)
+    - Create, sign and send bitcoin transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/bitcoin_example)
+    - Create, sign and send solana transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/solana_examples)
+    - Create, sign and send substrate transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/substrate_examples)
+    - Create, sign and send ethereum transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/ethereum_example)
 
 
 ## Resources
