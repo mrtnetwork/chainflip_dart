@@ -88,7 +88,6 @@ class ChainFlipSwapFee extends ChainFlipFee {
   }
   // Converts JSON map to ChainFlipSwapFee instance
   factory ChainFlipSwapFee.fromJson(Map<String, dynamic> json) {
-    // print("fee json $json");
     return ChainFlipSwapFee(
       type: ChainFlipFeeType.fromName(json['type']),
       chain: json['chain'],
@@ -682,7 +681,6 @@ class Complete extends EgressScheduled implements SwapState {
             egressScheduledBlockIndex: egressScheduledBlockIndex);
 
   factory Complete.fromJson(Map<String, dynamic> json) {
-    print("json $json");
     return Complete(
       egressType: json['egressType'],
       swapId: json['swapId'],
@@ -1127,7 +1125,6 @@ class DepositAddressFields extends SwapStatusResponseCommonFields {
 
   // Converts JSON map to DepositAddressFields instance
   factory DepositAddressFields.fromJson(Map<String, dynamic> json) {
-    // print("json here $json");
     return DepositAddressFields(
         depositAddress: json['depositAddress'],
         depositChannelCreatedAt: json['depositChannelCreatedAt'],

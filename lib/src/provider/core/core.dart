@@ -30,10 +30,9 @@ abstract class CfRequestParam<RESULT, RESPONSE> implements CfRequestParams {
       params = params.replaceFirst(pathParams[i], pathParameters[i]);
     }
     final queryParams = Map<String, dynamic>.from(this.queryParameters ?? {});
-    print(queryParams);
     if (queryParams.isNotEmpty) {
       params = Uri(path: params, queryParameters: queryParams)
-          // .normalizePath()
+          .normalizePath()
           .toString();
     }
     return CfRequestDetails(id: v, pathParams: params);
@@ -110,17 +109,9 @@ class CfRequestDetails {
       return "$uri/";
     }
     String url = uri;
-    // if (!url.contains(version)) {
-    //   if (url.endsWith("/")) {
-    //     url = url + version;
-    //   } else {
-    //     url = "$url/$version";
-    //   }
-    // }
     if (url.endsWith("/")) {
       url = url.substring(0, url.length - 1);
     }
-    print("$url$pathParams");
     return "$url$pathParams";
   }
 }

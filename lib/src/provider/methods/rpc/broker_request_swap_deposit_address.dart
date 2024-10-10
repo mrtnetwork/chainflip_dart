@@ -40,7 +40,6 @@ class CfRPCRequestBrokerRequestSwapDepositAddress extends CfRPCRequestParam<
   @override
   BrokerRequestSwapDepositAddressResponse onResonse(
       Map<String, dynamic> result) {
-    print(result);
     return BrokerRequestSwapDepositAddressResponse.fromJson(result);
   }
 }

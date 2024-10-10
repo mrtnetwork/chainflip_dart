@@ -41,7 +41,6 @@ class CfBackendRequestQuoteV2
   List<String> get pathParameters => [];
   @override
   List<QuoteQueryResponse> onResonse(List result) {
-    print("Result $result");
     return result.map((e) => QuoteQueryResponse.fromJson(e)).toList();
   }
 }

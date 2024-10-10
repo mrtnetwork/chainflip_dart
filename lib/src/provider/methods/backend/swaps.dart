@@ -17,7 +17,6 @@ class CfBackendRequestSwapStatus
 
   @override
   VaultSwapResponse2 onResonse(Map<String, dynamic> result) {
-    // print("result $result");
     return VaultSwapResponse2.fromJson(result);
   }
 }

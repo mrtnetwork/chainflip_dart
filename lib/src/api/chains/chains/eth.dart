@@ -81,8 +81,6 @@ class EthereumIntractApi {
     }
     chainId ??= await provider.request(RPCGetChainId());
     final data = function.encode(functionInputs);
-    print(BytesUtils.toHexString(data));
-    print("chain id ${chainId}");
     return buildEthereumTransaction(
         from: account,
         to: contractAddress,

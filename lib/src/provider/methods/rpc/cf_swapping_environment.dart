@@ -8,7 +8,6 @@ class CfRPCRequestSwappingEnvironment
 
   @override
   SwappingEnvironment onResonse(Map<String, dynamic> result) {
-    print("Result $result");
     return SwappingEnvironment.fromJson(result);
   }
 }

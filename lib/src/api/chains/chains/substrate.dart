@@ -167,7 +167,6 @@ class SubstrateIntractApi {
     startFetching();
     return controller.stream.asBroadcastStream(onCancel: (e) {
       controller.close();
-      print("controller has been closed");
     });
   }
 
