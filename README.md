@@ -36,7 +36,7 @@ This package facilitates seamless interaction with the Chainflip network, suppor
 - Create, sign and send ethereum transactions [example](https://github.com/mrtnetwork/chainflip_dart/tree/main/example/lib/chain_api/ethereum_example)
 
 
-## resources
+## Resources
 
 - [chainflip-io](https://github.com/chainflip-io)
 
